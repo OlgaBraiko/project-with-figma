@@ -171,7 +171,7 @@ fieldset {
 }
 
 .benefits__title {
-  width: 100%;
+  width: 84.3%;
   font-weight: 500;
   font-size: 35px;
   line-height: 42px;
@@ -183,10 +183,11 @@ fieldset {
   background-color: #fff;
 }
 
-.benefits__card {
+.benefits__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 55px;
+  padding: 50px 100px;
 }
 
 /*Benefits styles end*/
