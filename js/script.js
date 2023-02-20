@@ -1,4 +1,4 @@
-(function () {
+const menuHeader = () => {
   const header = document.querySelector(".header");
   window.onscroll = () => {
     if (window.pageYOffset > 50) {
@@ -7,7 +7,8 @@
       header.classList.remove("header_active");
     }
   };
-})();
+};
+menuHeader();
 
 function findVideos() {
   let videos = document.querySelectorAll(".video");
