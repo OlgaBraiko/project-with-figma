@@ -684,7 +684,7 @@ fieldset {
   .header__item {
     width: 100%;
     margin-right: 0;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
   }
 
   .header__item:last-child {
@@ -704,7 +704,6 @@ fieldset {
     right: 20px;
     z-index: 20;
   }
-
   .header__nav-close-line {
     display: block;
     width: 100%;
@@ -713,6 +712,7 @@ fieldset {
     position: absolute;
     top: 50%;
   }
+
   .header__nav-close-line:first-child {
     transform: translateY(-50%) rotate(45deg);
   }
