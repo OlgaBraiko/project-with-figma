@@ -186,6 +186,7 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+
 .search-form__field {
   width: 300px;
   background-color: transparent;
@@ -672,8 +673,6 @@ fieldset {
   .benefits__cards {
     padding: 40px 15px;
     grid-column-gap: 35px;
-  }
-  .benefits__card-more {
   }
 }
 
